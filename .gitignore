@@ -1,0 +1,89 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+out/
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code configuration
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Zero-Knowledge Circuit Files
+*.zkey
+*.vkey
+*.sym
+*.wtns
+
+
+# Generated verifier contracts
+contracts/*Verifier.sol
+!contracts/IGroth16Verifier.sol
+!contracts/IWithdrawVerifier.sol
+
+# Deployment artifacts
+deployments/
+deployment.json
+
+# Test artifacts
+.coverage_contracts/
+.coverage_artifacts/
+
+# Circuit development temporary files
+circuits/FINAL_STRUCTURE_README.md
+circuits/NEW_STRUCTURE_README.md
+circuits/docs/CLEAN_README.md
+circuits/docs/ZK_SYSTEM_COMPLETE.md
+circuits/isequal.sym
+circuits/withdraw_basic_fixed*.sym
+circuits/withdraw_basic_fixed_new.sym
+
+# Temporary input and proof files for testing
+circuits/proofs/inputs/input_*_test.json
+circuits/proofs/inputs/input_*_temp.json
+circuits/proofs/examples/proof_*_test.json
+circuits/proofs/examples/public_*_test.json
+
+# Generated scripts outputs
+circuits/scripts/output/
+circuits/scripts/temp/
